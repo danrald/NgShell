@@ -22,8 +22,8 @@ import { CommonModule } from '@angular/common';
       display: flex;
       align-items: center;
       padding: 1rem;
-      background-color: #2c3e50;
-      color: white;
+      background-color: white;
+      color: #21272A;
       height: 60px;
       position: fixed;
       top: 0;
@@ -35,7 +35,7 @@ import { CommonModule } from '@angular/common';
     .menu-button {
       background: none;
       border: none;
-      color: white;
+      color: #21272A;
       font-size: 1.5rem;
       cursor: pointer;
       padding: 0.5rem;
@@ -51,7 +51,7 @@ import { CommonModule } from '@angular/common';
     }
 
     .nav-items a {
-      color: white;
+      color: #21272A;
       text-decoration: none;
       margin-left: 1.5rem;
     }

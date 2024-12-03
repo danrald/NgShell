@@ -29,7 +29,7 @@ import { CommonModule } from '@angular/common';
       left: -250px;
       width: 250px;
       height: calc(100vh - 60px);
-      background-color: #34495e;
+      background-color: white;
       color: white;
       transition: left 0.3s ease;
       z-index: 900;
@@ -49,14 +49,14 @@ import { CommonModule } from '@angular/common';
 
     .nav-group h3 {
       font-size: 0.9rem;
-      color: #bdc3c7;
+      color: #21272A;
       text-transform: uppercase;
       margin-bottom: 0.5rem;
     }
 
     .nav-item {
       display: block;
-      color: white;
+      color: #21272A;
       text-decoration: none;
       padding: 0.5rem 0;
       transition: color 0.2s ease;
