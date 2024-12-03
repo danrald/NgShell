@@ -35,7 +35,7 @@ import { SideNavComponent } from '../../components/side-nav/side-nav.component';
     ]
 })
 export class MainLayoutComponent {
-  isSidenavOpen = false;
+  isSidenavOpen = true;
 
   toggleSidenav() {
     this.isSidenavOpen = !this.isSidenavOpen;
