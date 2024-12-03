@@ -30,6 +30,7 @@ import { CommonModule } from '@angular/common';
       left: 0;
       right: 0;
       z-index: 1000;
+      border-bottom: 1px solid red;
     }
 
     .menu-button {
