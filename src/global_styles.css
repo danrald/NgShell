@@ -21,8 +21,7 @@ body {
 
 /* Focus styles for accessibility */
 :focus {
-  outline: 2px solid #153b55;
-  outline-offset: 2px;
+  background : rgba(240, 6, 6, 0.05);
 }
 
 /* Responsive breakpoints */
