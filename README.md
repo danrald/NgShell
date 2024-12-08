@@ -1,1 +1,1 @@
-Example can be found at : https://ngshell.netlify.app/dashboard
+Example can be found at : https://ngshell.netlify.app
