@@ -9,7 +9,7 @@ import { CommonModule } from '@angular/common';
       <button class="menu-button" (click)="toggleSidenav.emit()">
         ☰
       </button>
-      <h1 class="title">NgNilla 3</h1>
+      <h1 class="title">NgNilla 4</h1>
       <div class="nav-items">
         <a href="#">Home</a>
         <a href="#">Profile</a>
