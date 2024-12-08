@@ -1,22 +1,23 @@
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterLink } from '@angular/router';
 
 @Component({
     selector: 'app-side-nav',
-    imports: [CommonModule],
+    imports: [CommonModule, RouterLink],
     template: `
     <nav class="side-nav" [class.open]="isOpen">
       <div class="nav-content">
         <div class="nav-group">
           <h3>Main Menu</h3>
-          <a href="#" class="nav-item">Dashboard</a>
-          <a href="#" class="nav-item">Projects</a>
-          <a href="#" class="nav-item">Tasks</a>
+          <a  routerLink="/dashboard" routerLinkActive="active" class="nav-item">Dashboard</a>
+          <a  routerLink="/projects" routerLinkActive="active" class="nav-item">Projects</a>
+          <a  routerLink="/tasks" routerLinkActive="active" class="nav-item">Tasks</a>
         </div>
         <div class="nav-group">
           <h3>Settings</h3>
-          <a href="#" class="nav-item">Account</a>
-          <a href="#" class="nav-item">Preferences</a>
+          <a routerLink="/account" class="nav-item">Account</a>
+          <a routerLink="/preferences" class="nav-item">Preferences</a>
         </div>
       </div>
     </nav>
@@ -33,6 +34,7 @@ import { CommonModule } from '@angular/common';
       color: white;
       transition: left 0.3s ease;
       z-index: 900;
+      border-right: 1px solid black;
     }
 
     .side-nav.open {
@@ -70,4 +72,9 @@ import { CommonModule } from '@angular/common';
 })
 export class SideNavComponent {
   @Input() isOpen = false;
+
+  constructor() {
+    console.log("hi");
+  }
+
 }
