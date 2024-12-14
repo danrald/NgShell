@@ -1,33 +1,14 @@
 
 <H1>Component Frameworks</H1>
-<div class="container">
-    <div>
-        <a href="https://www.spartan.ng/" target="_blank"> Spartan </a> 
-    </div>
-    <div>
-        <div>
-            <a href="https://taiga-ui.dev/" target="_blank"> Taiga UI </a> 
-        </div>
-    </div>
-    <div>
-        <div>
-            <a href="https://flowbite.com/docs/getting-started/angular/" target="_blank"> Flowbite </a> 
-        </div>
-    </div>
-    <div>
-        <div>
-            <a href="https://material.angular.io/" target="_blank"> Angular Material </a> 
-        </div>
-    </div>
-    <div>
-        <div>
-            <a href="https://primeng.org/" target="_blank">Prime NG</a> 
-        </div>
-    </div>
-    <div>
-        <div>
-            <a href="https://mdbootstrap.com/docs/angular/" target="_blank">MDB - Material Design Bootstrap</a> 
-        </div>
-    </div>
-
+<div class="container">  
+    @if (loading) {
+      <p>Loading frameworks...</p>
+    } @else {
+      
+        @for (framework of frameworks; track framework.id) {
+          <div >
+            <a href="{{framework.url}}" target="_blank">{{framework.name}}</a> 
+          </div>
+        }
+    }
 </div>
