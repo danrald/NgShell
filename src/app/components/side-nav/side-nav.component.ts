@@ -11,7 +11,7 @@ import { RouterLink } from '@angular/router';
         <div class="nav-group">
           <h3>Main Menu</h3>
           <a  routerLink="/dashboard" routerLinkActive="active" class="nav-item">Dashboard</a>
-          <a  routerLink="/projects" routerLinkActive="active" class="nav-item">Projects</a>
+          <a  routerLink="/bindings" routerLinkActive="active" class="nav-item">Bindings</a>
           <a  routerLink="/tasks" routerLinkActive="active" class="nav-item">Tasks</a>
         </div>
         <div class="nav-group">

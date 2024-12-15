@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
-import { ProjectsComponent } from './components/projects/projects.component';
+import { BindingsComponent} from './components/bindings/bindings.component';
 import { TasksComponent } from './components/tasks/tasks.component';
 import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { TopNavComponent } from './components/top-nav/top-nav.component';
