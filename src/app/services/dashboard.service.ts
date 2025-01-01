@@ -10,9 +10,12 @@ export class DashboardService {
     { id: 1, name: 'Spartan', url : 'https://www.spartan.ng/'},
     { id: 2, name: 'Taiga UI', url : 'https://taiga-ui.dev/' },
     { id: 3, name: 'Flowbite',  url : 'https://flowbite.com/docs/getting-started/angular/'  },
-    { id: 3, name: 'Angular Material',  url : 'https://material.angular.io/' },
-    { id: 3, name: 'Prime NG',  url : 'https://primeng.org/' },
-    { id: 3, name: 'MDB - Material Design Bootstrap',  url : 'https://mdbootstrap.com/docs/angular/' },
+    { id: 4, name: 'Angular Material',  url : 'https://material.angular.io/' },
+    { id: 5, name: 'Prime NG',  url : 'https://primeng.org/' },
+    { id: 6, name: 'MDB - Material Design Bootstrap',  url : 'https://mdbootstrap.com/docs/angular/' },
+    { id: 7, name: 'Material Tailwind',  url : 'https://www.material-tailwind.com/docs/html/guide/angular' }
+
+    
   ];
   constructor() { }
 
