@@ -13,8 +13,8 @@ export class DashboardService {
     { id: 4, name: 'Angular Material',  url : 'https://material.angular.io/' },
     { id: 5, name: 'Prime NG',  url : 'https://primeng.org/' },
     { id: 6, name: 'MDB - Material Design Bootstrap',  url : 'https://mdbootstrap.com/docs/angular/' },
-    { id: 7, name: 'Material Tailwind',  url : 'https://www.material-tailwind.com/docs/html/guide/angular' }
-
+    { id: 7, name: 'Material Tailwind',  url : 'https://www.material-tailwind.com/docs/html/guide/angular' },
+    { id: 8, name: 'Daisy UI',  url : 'https://daisyui.com' }
     
   ];
   constructor() { }
